@@ -1,0 +1,27 @@
+Telegram Bot in Ruby
+
+/home/rob/projects/rruby/bots/telegram
+
+t.me/rvr_goflyakite_bot
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+
+$ sudo gem install telegram_bot
+
+
+
+Message Format:
+message_id: 5
+from: !ruby/object:TelegramBot::User
+  id: 691653904
+  first_name: Rob
+  last_name: R
+  username: 
+chat: !ruby/object:TelegramBot::Channel
+  id: 691653904
+  username: 
+  title: 
+date: !ruby/object:DateTime 2019-06-27 00:22:51.000000000 Z
+text: Well now, hello.
+reply_to_message: 
