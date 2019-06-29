@@ -1,15 +1,20 @@
 Telegram Bot in Ruby
 
 /home/rob/projects/rruby/bots/telegram
-
 t.me/rvr_goflyakite_bot
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 
+BOT: t.me/rvr_goflyakite_bot
 
+
+https://github.com/eljojo/telegram_bot
 $ sudo gem install telegram_bot
+--file: telegram.rb
 
-
+https://github.com/atipugin/telegram-bot-ruby
+$ sudo gem install telegram-bot-ruby
+--file: tbr.rb
 
 Message Format:
 message_id: 5
